@@ -1,0 +1,9 @@
+baseURL = "https://f4ww4z.github.io/"
+languageCode = "en-us"
+title = "Fawwaz's Journey"
+theme = "ananke"
+publishDir = "docs"
+
+
+[permalinks]
+  post = "/:year/:month/:title/"
