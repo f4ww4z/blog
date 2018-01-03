@@ -1,10 +1,8 @@
-baseURL = "https://f4ww4z.github.io/"
-title = "Fawwaz's Journey"
+baseURL = "https://example.com/"
+title = "Temple"
 theme = "temple"
 # If not set, it will not appear. Otherwise it will show below your footer links
-copyright = "(c) Fawwaz Yusran -- 2018"
-
-publishDir = "docs"
+copyright = "(c) You -- 2017"
 
 [params]
   # Enables syntax highlighting
@@ -21,8 +19,8 @@ publishDir = "docs"
   category = "categories"
 
 [author]
-  name = "Fawwaz Yusran"
-  github = "f4ww4z"
-  email = "faww4zintelgent4@email.com"
-  gaid = ""
-  twitter = ""
+  name = "Temple Theme"
+  github = "github"
+  email = "your@email.com"
+  gaid = "Your Google Analytics ID"
+  twitter = "twitterID"
