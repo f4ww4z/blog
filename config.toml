@@ -78,6 +78,7 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
+# Menus
 [[menu.main]]
     name = "Home"
     weight = -10
@@ -86,9 +87,15 @@ page = "/:slug/"
 
 [[menu.main]]
     name = "Posts"
-    weight = -3
+    weight = -4
     identifier = "posts"
     url = "/post/"
+
+[[menu.main]]
+    name = "Tags"
+    weight = -3
+    identifier = "tags"
+    url = "/tags/"
 
 [[menu.main]]
     name = "About"
