@@ -1,10 +1,11 @@
 ---
 title: "Creating a Wonderful Blog Site with Hugo"
+categories: ["tutorial"]
 tags: ["hugo", "github-pages", "travis", "website"]
 date: 2018-01-07T07:53:25+07:00
 ---
 
-On one occassion, I was looking on Google for a guide to creating [GitHub pages](https://pages.github.com/). It turns out that it was a prettty easy process, providing that you have added a few elements to `index.html` in your repo's main branch (commonly known as `master`). After this, all you had to do was turn on **GitHub pages** in the repository settings, and your HTML site will be published at
+On one occasion, I was looking on Google for a guide to creating [GitHub pages](https://pages.github.com/). It turns out that it was a pretty easy process, providing that you have added a few elements to `index.html` in your repo's main branch (commonly known as `master`). After this, all you had to do was turn on **GitHub pages** in the repository settings, and your HTML site will be published at
 
 ```html
 <github-username>.github.io/<repo-name>
