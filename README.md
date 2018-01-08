@@ -9,7 +9,7 @@ Hugo builds on Travis are set to the `master` branch.
 New post commit format:
 
 ```
-post: post-file-name.md
+new post: post-file-name.md
 
 e.g. new post: my-first-post.md
 ```
