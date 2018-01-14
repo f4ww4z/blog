@@ -45,7 +45,7 @@ First, (if you haven't already) you will need to create a new repository on [Git
 
 To do this, log in to [GitHub](https://github.com), then down in *Your repositories* section, click **New Repository**.
 
-<img src="/img/creating_new_repo.png" align="center" />
+<img src="/img/set-up-hugo/creating_new_repo.png" align="center" />
 
 Next, go ahead and clone the new repository to your local machine. Next, navigate to your repo folder in your local machine.
 
@@ -131,7 +131,7 @@ After creating our first post, we are ready to add a theme to our Hugo site. We'
 
 Let's download the Hugo *temple* theme [here](https://github.com/aos/temple). Do **not** clone the repo - simply download it as a zip file (this will prevent git confusions later on).
 
-<img src="/img/downloading_temple_theme.png" align="center" alt="Downloading the temple theme"/>
+<img src="/img/set-up-hugo/downloading_temple_theme.png" align="center" alt="Downloading the temple theme"/>
 
 Now, extract that zip file specifically to your `themes/` folder. Next, rename the folder from `temple-master` to just `temple`.
 
@@ -186,17 +186,17 @@ First, we will need a Personal Access Token. This will be used by Travis to be a
 
 Go to [this link](https://github.com/settings/tokens/new) to create a new Personal Access Token. Next, fill the Token description and tick the **repo** box:
 
-<img src="/img/creating_new_pat.png" align="center" alt="Creating a new Personal Access Token"/>
+<img src="/img/set-up-hugo/creating_new_pat.png" align="center" alt="Creating a new Personal Access Token"/>
 
 That is all the access Travis needs! Then, click on **Generate Token** at the bottom. Now, note down the generated token, as we will be using it soon!.
 
 Now, go to [travis-ci.org](http://travis-ci.org/) and login with your GitHub account. Next, click on your profile picture at the top right corner. In the list of repos that you own, choose your blog repo, and flick the switch to turn Travis CI on for that repo.
 
-<img src="/img/travis_activate_blog_repo.png" align="center" alt="Activating Travis to blog site"/>
+<img src="/img/set-up-hugo/travis_activate_blog_repo.png" align="center" alt="Activating Travis to blog site"/>
 
 Next, click on the repo to view its build details (there are no builds yet! We will do this later on). Now go to the **Settings** tab, and scroll to the **Environment Variables**. We will create a new environment variable named `GITHUB_TOKEN` to store our newly created Personal Access Token. For the variable value, just input the generated token that you created earlier. When finished, click **Add** at the bottom to add your environment variable. Now, Travis is capable of rewriting your entire blog repo at your will! (Eek, that sounds scarier than reality)
 
-<img src="/img/creating_env_variable.png" align="center" alt="Creating GITHUB_TOKEN environment variable"/>
+<img src="/img/set-up-hugo/creating_env_variable.png" align="center" alt="Creating GITHUB_TOKEN environment variable"/>
 
 #### Creating .travis.yml
 
@@ -284,7 +284,7 @@ If all goes well, go to [Travis](https://travis-ci.org/), select the blog repo, 
 
 to see your new published site.
 
-<img src="/img/green_travis_build.png" align="center" alt="Blog site continuously deployed with Travis"/>
+<img src="/img/set-up-hugo/green_travis_build.png" align="center" alt="Blog site continuously deployed with Travis"/>
 
 >To learn more about GitHub pages deployment on Travis, see [this link](https://docs.travis-ci.com/user/deployment/pages/).
 

@@ -34,7 +34,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = "Copyright"
-holder = "Maharaj Fawwaz A. Yusran"
+holder = "Maharaj Fawwaz Almuqaddim Yusran"
 startYear = "2017"
 suffix = ""
 
