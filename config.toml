@@ -8,8 +8,8 @@ theme = "minimo"
 # directories
 publishDir = "docs"
 
+googleAnalytics = "UA-112537769-1"
 disqusShortname = ""
-googleAnalytics = ""
 
 Paginate = 5
 preserveTaxonomyNames = true

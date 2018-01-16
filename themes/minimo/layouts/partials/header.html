@@ -10,6 +10,16 @@
 
     <header id='header' class='header-container'>
       <div class='header site-header'>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112537769-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-112537769-1');
+        </script>
+
         {{ partial "nav/menus/main" . }}
         <div class='header-info'>
           {{ if eq .Kind "home" }}
