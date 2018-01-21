@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/f4ww4z/f4ww4z.github.io.svg?branch=develop)](https://travis-ci.org/f4ww4z/f4ww4z.github.io)
+[![Build Status](https://travis-ci.com/f4ww4z/f4ww4z.github.io.svg?token=6sGe8XeJSLjUzd5ZEHK5&branch=develop)](https://travis-ci.com/f4ww4z/f4ww4z.github.io)
 
 # My personal blog
 
