@@ -1,6 +1,6 @@
 ---
 title: "Google Code-in Experience with OpenMRS"
-date: 2018-01-21T11:05:08+07:00
+date: 2018-01-24T11:05:08+07:00
 categories: ["OpenMRS"]
 tags: ["openmrs", "outreach", "documentation"]
 cover:
@@ -17,6 +17,8 @@ So by the time Google Code-in starts (29th November in my region), I quickly got
 
 ## OpenMRS for the World
 
+![OpenMRS around the world](/img/gci-with-openmrs/openmrs_banner.png)
+
 OpenMRS is short for the Open Medical Record System, providing hospitals and clinics an Electronic Record system (EMR) to replace the inefficient but widely-used paper based record systems, especially in the developing world. Since 2004, OpenMRS has evolved from a small clinic in Kenya to providing health care delivery in almost every continent around the globe. Now OpenMRS is a global organization with thousands of active community members contributing to the open source system codebase.
 
 >Read more about the OpenMRS community [here](/post/about-openmrs).
@@ -31,7 +33,9 @@ The very first task I completed for OpenMRS was actually the process of getting 
 
 Having completed the introductory task, I started work on a bunch of exciting tasks for OpenMRS, and around half of them are submitting Pull Requests to the OpenRMS codebase on GitHub. I will divide the description of tasks I have completed during the GCI period into smaller categories.
 
-### Quality Assurance and/or Reporting Bugs
+### Quality Assurance / Reporting Bugs
+
+![Quality assurance at a glance](/img/gci-with-openmrs/quality_assurance_pic_1.jpg)
 
 These tasks basically focus on experimenting with the accustomed application (e.g. a web app, a mobile app) and finding errors or bugs relating to the app.
 
