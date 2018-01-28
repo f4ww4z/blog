@@ -1,10 +1,6 @@
-[![Build Status](https://travis-ci.com/f4ww4z/f4ww4z.github.io.svg?token=6sGe8XeJSLjUzd5ZEHK5&branch=develop)](https://travis-ci.com/f4ww4z/f4ww4z.github.io)
+# My personal blog - https://f4ww4z.me
 
-# My personal blog
-
-I work on the `develop` branch.
-
-Hugo builds on Travis are set to the `master` branch.
+This blog site is deployed automatically by Netlify CI.
 
 New post commit format:
 
@@ -20,18 +16,4 @@ Updating a blog post:
 update post: post-file-name.md
 
 e.g. update post: my-first-post.md
-```
-
-Setting up a new theme commit:
-
-```
-theme: Update to <insert-theme-name-here>
-
-e.g. theme: Update to temple
-```
-
-Commit something that will be rebased:
-
-```
-[Rebase] <description-here>
 ```

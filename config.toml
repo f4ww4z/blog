@@ -1,4 +1,4 @@
-baseURL = "https://f4ww4z.github.io/"
+baseURL = "https://f4ww4z.me/"
 title = "Fawwaz's Journey"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -61,13 +61,12 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "f4ww4z"
 email = "faww4zintelgent4@gmail.com"
 github = "f4ww4z"
-telegram = "Faww4z"
+telegram = "f4ww4z"
 
 [params.social.config]
-platforms = ["github","email","codepen","telegram"]
+platforms = ["github","email","telegram"]
 
 [taxonomies]
 author = "authors"
@@ -112,7 +111,7 @@ page = "/:slug/"
   name = "Repo"
   weight = -1
   identifier = "repository"
-  url = "https://github.com/f4ww4z/f4ww4z.github.io/"
+  url = "https://github.com/f4ww4z/blog/"
 
 [blackfriday]
 hrefTargetBlank = true
