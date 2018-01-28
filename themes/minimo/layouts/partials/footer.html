@@ -9,6 +9,12 @@
 
   {{- partial "footer/scripts" . -}}
 
+  {{ if not .IsHome }}
+
+    {{ partial "disqus.html" . }}
+
+  {{ end }}
+
 </body>
 
 </html>

@@ -9,7 +9,7 @@ theme = "minimo"
 publishDir = "docs"
 
 googleAnalytics = "UA-112537769-1"
-disqusShortname = ""
+disqusShortname = "f4ww4z-me"
 
 Paginate = 5
 preserveTaxonomyNames = true
