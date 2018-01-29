@@ -31,7 +31,7 @@ The very first task I completed for OpenMRS was actually the process of getting 
 
 ## From Zero to Hero
 
-Having completed the introductory task, I started work on a bunch of exciting tasks for OpenMRS, and around half of them are submitting Pull Requests to the OpenRMS codebase on GitHub. I will divide the description of tasks I have completed during the GCI period into smaller categories.
+Having completed the introductory task, I started work on a bunch of exciting tasks for OpenMRS, and around half of them were submitting Pull Requests to the [OpenRMS codebase](https://github.com/openmrs/) on GitHub. I will divide the description of tasks I have completed during the GCI period into smaller categories.
 
 ### Quality Assurance / Reporting Bugs
 
@@ -47,15 +47,13 @@ The second QA (Quality Assurance) I worked on was evaluating the OpenMRS Referen
 
 >See examples of bugs I found in this task: [**RA-1442**](https://issues.openmrs.org/browse/RA-1442) and [**RA-1443**](https://issues.openmrs.org/browse/RA-1443).
 
-Next, another QA task I completed was choosing specifically one *bundled module* from the OpenMRS Reference Application and testing that module out. I chose to assess the **Admin UI** module as I guess that module is incorporated closely with the **Appointment Scheduling** module, thus more prone to integration bugs.
+Another QA task I completed was choosing specifically one [*bundled module*](https://wiki.openmrs.org/x/WQ8z) from the OpenMRS Reference Application and testing that module out. I chose to assess the **Admin UI** module as I guess that module is incorporated closely with the **Appointment Scheduling** module, thus more prone to integration bugs.
 
 Here are the three bugs I found relating to the Admin UI module:
 
 - https://issues.openmrs.org/browse/RA-1449
 - https://issues.openmrs.org/browse/RA-1448
 - https://issues.openmrs.org/browse/RA-1447
-
->See the complete Google Doc I made for the Admin UI
 
 I also complied OpenMRS's main website at http://openmrs.org/ with WCAG's guidelines, and have created a document [here](https://docs.google.com/document/d/14lzESgbCkhAh9W1gmzxrJWbcNFtftfYJ4qMtashw05c/edit?usp=sharing).
 
@@ -66,9 +64,9 @@ Last, my final QA task was completing QA testing for new features developed for 
 
 ### Documentation
 
-Having done a bunch of QA tasks, I moved on to documentation. As OpenMRS is moving the way they publicize and distribute modules, from the old [modules.openmrs.org](http://modules.openmrs.org/) to the new [Add-ons index](http://addons.openmrs.org/), here I mostly update the OpenMRS Wiki from providing old instructions to upload to *modules.openmrs.org* and point to [the new way](https://wiki.openmrs.org/x/zIMmAQ) of publishing modules. See my rampage of edits to the Wiki page on [**this GitHub gist**](https://gist.github.com/f4ww4z/186cd956403d18bbe2a359a7e76ab35f).
+Having done a bunch of QA tasks, I moved on to documentation tasks. As OpenMRS is moving the way they publicize and distribute modules, from the old [modules.openmrs.org](http://modules.openmrs.org/) to the new [Add-ons index](http://addons.openmrs.org/), here I mostly update the OpenMRS Wiki from providing old instructions to upload to *modules.openmrs.org* and point to [the new way](https://wiki.openmrs.org/x/zIMmAQ) of publishing modules. See my rampage of edits to the Wiki page on [**this GitHub gist**](https://gist.github.com/f4ww4z/186cd956403d18bbe2a359a7e76ab35f).
 
-(P.S. I was going to include it in this post as a shortcode, although I think it will too long to be readable.)
+(P.S. I was going to include the gist in this post as a shortcode, although I think it will too long to be readable.)
 
 ### //TODO: Code
 
@@ -80,7 +78,7 @@ My second coding task is to group modules with similar characteristics at the ne
 
 Next, as I was more comfortable with writing code for the OpenMRS Android client, I chose an Android client (AC) task that requires me to change the implementation of date entering on the registration screen. It took 5 days of reviews and feedback, but I felt glad when my code was merged. See my complete PR at [**AC-428**](https://github.com/openmrs/openmrs-contrib-android-client/pull/399).
 
-After completing the Android client task above, a mentor (also the leader of Android client project) advised me to write unit tests for the new implementation, so I did exactly that. See my [unit tests PR here](https://github.com/openmrs/openmrs-contrib-android-client/pull/403/).
+After completing the Android client task above, a mentor (also the leader of the Android client project) advised me to write unit tests for the new implementation, so I did exactly that. See my [unit tests PR here](https://github.com/openmrs/openmrs-contrib-android-client/pull/403/).
 
 ### Outreach and Design tasks
 
@@ -95,7 +93,7 @@ and the release process tutorial is live at https://youtu.be/krf-MpfPVWE
 
 Next, I constructed an HTML Email template to thank Google Code-in and Google Summer of Code students for all their hard work at OpenMRS. My GCI Email template is live at ***https://f4ww4z.github.io/openmrs-template-gci/*** whilst my GSOC Email template is at ***https://f4ww4z.github.io/openmrs-template-gsoc/*** .
 
-After those tasks are complete, I designed a custom 404 page for the OpenMRS website. I managed to integrate the 404 page source code and deploying it to OpenShift as a WAR package.
+After those tasks are complete, I designed a custom 404 page for the OpenMRS website. I managed to integrate the [404 page source code](https://github.com/f4ww4z/gci-89) and deploying it to OpenShift as a WAR package.
 
 >See my 404 page at http://gci-89-gci-89.a3c1.starter-us-west-1.openshiftapps.com/GCI-89/
 
@@ -110,7 +108,7 @@ Personally, I loved working on documentation and Quality Assurance tasks and I w
 
 #### Requested Code Changes are Okay
 
-I realized when a reviewer requested changes and wrote comments suggestively for my PR, it does not mean the code is bad - rather they care enough about me that they like to see me improve.
+I realized when a reviewer requested changes and wrote comments suggestively for my PR, it does not mean the code is bad - rather they care enough about me that they like to see me improving the PR.
 
 #### Being Active in the Community
 
@@ -122,6 +120,6 @@ Everyone has the right to ask any query they are facing regarding OpenMRS (or an
 
 ## From Google Code-in until Now
 
-Truly, Google Code-in has been an exceptional, amazing program for us students to be introduced to the world of open source. I personally have learned a lot through GCI alone, and so I guess there is no going back. Well, after the last day of task submission, I kept and will continue contributing to the OpenMRS community, especially with the OpenMRS Android client as well as the Android app's user guide.
+Truly, Google Code-in has been an exceptional program for us students to be introduced to the world of open source. I personally have learned a lot through GCI alone, and so I guess there is no going back. Well, after the last day of task submission, I kept and will continue contributing to the OpenMRS community, especially with the [OpenMRS Android client](https://github.com/openmrs/openmrs-contrib-android-client) as well as the [Android app's user guide](https://github.com/openmrs/openmrs-android-client-user-guide/).
 
 <!-- Although there might not be payment on offer, our very code will be used by thousands of clinics around the world, improving patients' living conditions in the developing world. And I guess saving lives are more valuable than what money can buy. -->
