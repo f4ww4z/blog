@@ -9,7 +9,7 @@
 
   {{- partial "footer/scripts" . -}}
 
-  {{ if not .IsHome }}
+  {{ if eq .Section "posts" }}
 
     {{ partial "disqus.html" . }}
 
