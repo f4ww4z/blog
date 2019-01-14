@@ -1,4 +1,4 @@
-# My personal blog - https://f4ww4z.me
+# My personal blog - https://fawwazyusran.me
 
 This blog site is deployed automatically by Netlify CI.
 
