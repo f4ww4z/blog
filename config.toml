@@ -1,4 +1,4 @@
-baseURL = "https://f4ww4z.me/"
+baseURL = "https://fawwazyusran.me/"
 title = "Fawwaz's Journey"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -9,7 +9,7 @@ theme = "minimo"
 publishDir = "docs"
 
 googleAnalytics = "UA-112537769-1"
-disqusShortname = "f4ww4z-me"
+disqusShortname = "fawwazyusran-me"
 
 Paginate = 5
 preserveTaxonomyNames = true
@@ -63,10 +63,11 @@ titleSeparator = "•"
 [params.social]
 email = "faww4zintelgent4@gmail.com"
 github = "f4ww4z"
+twitter = "f4ww4z_"
 telegram = "f4ww4z"
 
 [params.social.config]
-platforms = ["github","email","telegram"]
+platforms = ["github","email","twitter","telegram"]
 
 [taxonomies]
 author = "authors"
